@@ -1,7 +1,5 @@
 call plug#begin('~/.vim/plugged')
 
-" Make sure you use single quotes
-
 " Shorthand notation; fetches https://github.com/junegunn/vim-easy-align
 Plug 'junegunn/vim-easy-align'
 "
@@ -31,4 +29,13 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug '~/my-prototype-plugin'
 "
 " Initialize plugin system
+" ===============================my plugins=================
+"
+Plug 'airblade/vim-gitgutter'
+" status file on NERDtree bar
+Plug 'xuyuanp/nerdtree-git-plugin'
+" font for icon 
+Plug 'ryanoasis/vim-devicons'
+" thanh status màu mè, lồng lộn 
+Plug 'vim-airline/vim-airline'
 call plug#end()
