@@ -32,10 +32,20 @@ Plug '~/my-prototype-plugin'
 " ===============================my plugins=================
 "
 Plug 'airblade/vim-gitgutter'
+
 " status file on NERDtree bar
 Plug 'xuyuanp/nerdtree-git-plugin'
+
 " font for icon 
 Plug 'ryanoasis/vim-devicons'
+
 " thanh status màu mè, lồng lộn 
 Plug 'vim-airline/vim-airline'
+
+" theme
+Plug 'morhetz/gruvbox'
+
+" hight light code
+Plug 'sheerun/vim-polyglot'
+
 call plug#end()
