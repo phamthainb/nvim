@@ -26,6 +26,6 @@ set backspace=indent,eol,start	" Backspace behaviour
 " cấu hình NERDtree menu
 nnoremap <C-n> :NERDTreeFocus<CR>
 nnoremap <C-t> :NERDTree<CR>
-""nnoremap <C-f> :NERDTreeFind<CR>
+nnoremap <C-f> :NERDTreeFind<CR>
 
  set encoding=UTF-8
