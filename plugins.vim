@@ -48,4 +48,7 @@ Plug 'morhetz/gruvbox'
 " hight light code
 Plug 'sheerun/vim-polyglot'
 
+" cài auto suggest code LTS 
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
 call plug#end()

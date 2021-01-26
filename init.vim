@@ -2,6 +2,10 @@
 
 " cấu hình cơ bản của vim : set các biến, cài đặt các thư viện
 source ~/.config/nvim/base.vim
-" plugins inports
+
+" plugins imports
 source ~/.config/nvim/plugins.vim
-" 
+
+" keybinds
+source ~/.config/nvim/keybinds.vim
+
