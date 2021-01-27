@@ -1,5 +1,5 @@
 call plug#begin('~/.vim/plugged')
-
+" chang
 " Shorthand notation; fetches https://github.com/junegunn/vim-easy-align
 Plug 'junegunn/vim-easy-align'
 "
@@ -34,7 +34,12 @@ Plug '~/my-prototype-plugin'
 Plug 'airblade/vim-gitgutter'
 
 " status file on NERDtree bar
-Plug 'xuyuanp/nerdtree-git-plugin'
+"Plug 'xuyuanp/nerdtree-git-plugin'
+
+" menu bar coc-explorer
+Plug 'weirongxu/coc-explorer'
+
+
 
 " font for icon 
 Plug 'ryanoasis/vim-devicons'
@@ -50,5 +55,9 @@ Plug 'sheerun/vim-polyglot'
 
 " cài auto suggest code LTS 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+"prettier
+Plug 'neoclide/coc-prettier'
+
 
 call plug#end()

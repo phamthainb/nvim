@@ -1,0 +1,48 @@
+{
+  "suggest.noselect": false,
+  "coc.preferences.formatOnSaveFiletypes": [
+    "json",
+    "typescript",
+    "typescriptreact",
+    "jsx",
+    "typescript.tsx",
+    "typescript.jsx",
+    "javascript",
+    "go"
+  ],
+  "prettier.singleQuote": true,
+  "coc.preferences.jumpCommand": "edit",
+  "diagnostic.maxWindowHeight": 25,
+  "suggest.detailMaxLength": 200,
+  "list.insertMappings": {
+    "<C-s>": "action:vsplit",
+    "<C-w>": "command:wincmd k",
+    "<C-v>": "eval:@@"
+  },
+  "explorer.width": 30,
+  "explorer.buffer.root.template": "[icon & 1] OPEN EDITORS",
+  "explorer.file.root.template": "[icon & 1] PROJECT ([root])",
+  "explorer.file.child.template": "[git | 2] [selection | clip | 1] [indent][icon | 1] [diagnosticError & 1][filename omitCenter 1][modified][readonly] [linkIcon & 1][link growRight 1 omitCenter 5]",
+  "explorer.file.showHiddenFiles": true,
+  "explorer.file.autoReveal": false,
+  "explorer.icon.enableVimDevicons": true,
+  "explorer.icon.enableNerdfont": true,
+  "explorer.previewAction.onHover": false,
+  "explorer.keyMappings.global": {
+    "<cr>": [
+      "wait",
+      "expandable?",
+      ["expanded?", "collapse", "expand"],
+      "open"
+    ],
+    "cd": ["wait", "expandable?", "cd", ""],
+    "s": "open:vsplit",
+    "mm": "rename",
+    "mc": "copyFile",
+    "C": "copyFile",
+    "md": "delete",
+    "D": "delete",
+    "ma": "addFile",
+    "mA": "addDirectory"
+  }
+}
