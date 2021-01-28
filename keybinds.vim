@@ -84,5 +84,11 @@ nmap <space>eb :CocCommand explorer --preset buffer<CR>
 " List all presets
 nmap <space>el :CocList explPresets
 
+"" Minimap
+"let g:minimap_highlight='Visual'
 
+"let g:minimap_show='<leader>ms'
+"let g:minimap_update='<leader>mu'
+"let g:minimap_close='<leader>gc'
+"let g:minimap_toggle='map'
 

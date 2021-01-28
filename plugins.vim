@@ -59,5 +59,9 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 "prettier
 Plug 'neoclide/coc-prettier'
 
+"mini minimap sidebar
+"Plug 'severin-lemaignan/vim-minimap'
+
+
 
 call plug#end()
