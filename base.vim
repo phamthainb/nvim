@@ -24,12 +24,8 @@ set ruler	" Show row and column ruler information
 set undolevels=1000	" Number of undo levels
 set backspace=indent,eol,start	" Backspace behaviour
 
-" cấu hình NERDtree menu
-"nnoremap <C-n> :NERDTreeFocus<CR>
-"nnoremap <C-t> :NERDTree<CR>
-"nnoremap <C-f> :NERDTreeFind<CR>
-
  set encoding=UTF-8
 
 "" add command for formatFile 
  command! -nargs=0 Prettier :CocCommand prettier.formatFile
+

@@ -9,4 +9,3 @@ source ~/.config/nvim/plugins.vim
 " keybinds
 source ~/.config/nvim/keybinds.vim
 
-" change

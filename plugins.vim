@@ -10,7 +10,7 @@ Plug 'https://github.com/junegunn/vim-github-dashboard.git'
 Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
 "
 " On-demand loading
-Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+"Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'tpope/vim-fireplace', { 'for': 'clojure' }
 "
 " Using a non-default branch
@@ -33,13 +33,8 @@ Plug '~/my-prototype-plugin'
 "
 Plug 'airblade/vim-gitgutter'
 
-" status file on NERDtree bar
-"Plug 'xuyuanp/nerdtree-git-plugin'
-
 " menu bar coc-explorer
 Plug 'weirongxu/coc-explorer'
-
-
 
 " font for icon 
 Plug 'ryanoasis/vim-devicons'
@@ -59,9 +54,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 "prettier
 Plug 'neoclide/coc-prettier'
 
-"mini minimap sidebar
-"Plug 'severin-lemaignan/vim-minimap'
-
-
+" float terminal
+Plug 'voldikss/vim-floaterm'
 
 call plug#end()

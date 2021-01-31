@@ -34,6 +34,7 @@ inoremap <silent><expr> <cr> pumvisible() ? coc#_select_confirm()
 
 "" Menu bar 
 :nmap <c-b> :CocCommand explorer<CR>
+"nmap <c-b> :CocCommand explorer --preset floating<CR>
 
 let g:coc_explorer_global_presets = {
 \   '.vim': {
@@ -75,20 +76,13 @@ let g:coc_explorer_global_presets = {
 \   },
 \ }
 
-" Use preset argument to open it
-nmap <space>ed :CocCommand explorer --preset .vim<CR>
-nmap <space>ef :CocCommand explorer --preset floating<CR>
-nmap <space>ec :CocCommand explorer --preset cocConfig<CR>
-nmap <space>eb :CocCommand explorer --preset buffer<CR>
-
 " List all presets
 nmap <space>el :CocList explPresets
 
-"" Minimap
-"let g:minimap_highlight='Visual'
 
-"let g:minimap_show='<leader>ms'
-"let g:minimap_update='<leader>mu'
-"let g:minimap_close='<leader>gc'
-"let g:minimap_toggle='map'
+" Float Terminal
+let g:floaterm_keymap_new    = '<F7>'
+let g:floaterm_keymap_prev   = '<F8>'
+let g:floaterm_keymap_next   = '<F9>'
+let g:floaterm_keymap_toggle = '<F12>'
 
