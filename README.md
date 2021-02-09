@@ -2,25 +2,25 @@
 
 ### Install neovim
 
-`
+```
 sudo add-apt-repository ppa:neovim-ppa/stable \n
 sudo apt-get update \n 
 sudo apt-get install neovim
-`
+```
 
-### Install plugin
+### Plugin used
+
 - Vim-Plug: quản lý plugins
 	+ check `~/.vim/plugged` exists.
 
 - UI
-	+ MenuBar : Coc-explorer
+	+ MenuBar : coc-explorer
+	+ 
+
+- Orther :
+	+ Format code : coc-pritter
 	+ 
 
 
-- Keybinds
-	+ 
-	+ 
+### Keybinds
 
-### Plugin used
-- format code : coc-pritter
-- 
