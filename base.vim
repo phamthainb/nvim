@@ -29,3 +29,6 @@ set backspace=indent,eol,start	" Backspace behaviour
 "" add command for formatFile 
  command! -nargs=0 Prettier :CocCommand prettier.formatFile
 
+ " pdf view
+ au BufRead *.pdf sil exe "!xdg-open " . shellescape(expand("%:p")) | bd | let &ft=&ft | redraw!
+

@@ -57,4 +57,8 @@ Plug 'neoclide/coc-prettier'
 " float terminal
 Plug 'voldikss/vim-floaterm'
 
+" styled components
+Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
+
+
 call plug#end()
