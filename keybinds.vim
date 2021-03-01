@@ -81,7 +81,9 @@ nmap <space>el :CocList explPresets
 
 
 " Float Terminal
-let g:floaterm_keymap_new    = '<F7>'
+nmap <F7> :FloatermNew --height=0.9 --width=0.9 <CR>
+"let g:floaterm_keymap_new    = '<F7>'
+
 let g:floaterm_keymap_prev   = '<F8>'
 let g:floaterm_keymap_next   = '<F9>'
 let g:floaterm_keymap_toggle = '<F12>'
