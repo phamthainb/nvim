@@ -60,5 +60,4 @@ Plug 'voldikss/vim-floaterm'
 " styled components
 Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
 
-
 call plug#end()
